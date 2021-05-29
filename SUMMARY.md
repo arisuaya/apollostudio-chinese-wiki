@@ -2,7 +2,3 @@
 
 * [Home](README.md)
 
-## main
-
-* [Untitled](main/untitled.md)
-
