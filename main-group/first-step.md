@@ -1,53 +1,57 @@
-# 1.初次上手
+# 初次设定与总概括
 
+{% hint style="info" %}
 我们建议你阅读 项目结构页 ，它概括了Apollo Studio的所有内容和功能。其余的页面可作为该页介绍的材料的深入参考。
+{% endhint %}
 
-## 必要的设置
+为了确保你的灯尽可能顺利地运行，请确保你的Launchpad固件是最新的，当Apollo检测到固件版本低于推荐固件时，将会弹出窗口，你可以使用Novation Component或Launchpad Utility来更新
 
-![Firmware warning](https://cdn.discordapp.com/attachments/653392306291998721/679321874227920907/unknown.png)
+![&#x56FA;&#x4EF6;&#x7248;&#x672C;&#x8B66;&#x544A;](https://img.kaiheila.cn/assets/2021-06/pAHyOCJm8S0e6058.png)
 
-为了确保你的灯尽可能顺利地运行，确保你的Launchpad固件是最新的。
+如果你运行的是Windows系统，Apollo Studio需要安装Novation USB Driver 2.17.10或更新的版本才能运行（推荐使用USB Driver 2.22，不会蓝屏）。驱动是为了使你的Launchpad能够同时与多个进行MIDI交互的应用程序兼容（配合Ableton Live）。
 
-![Driver warning](https://cdn.discordapp.com/attachments/339228623271886848/706681073953931324/unknown.png)
+当Apollo检测到未安装驱动时将会弹窗
 
-如果你运行的是Windows，Apollo Studio需要安装Novation USB Driver 2.17.10或更新版本。这样做的原因是为了使你的Launchpad能够同时与多个应用程序一起使用，在开发Launchpad封面时你几乎总是想这样做（通常与Ableton Live一起）。
+![&#x9A71;&#x52A8;&#x8B66;&#x544A;](https://img.kaiheila.cn/assets/2021-06/R5ZX1JmCVP0e604r.png)
 
-## Splash Screen
+## 主页
 
-当Apollo打开时，你看到的第一件事是Splash屏幕，它由一些标签组成。在这个屏幕上，你可以启动你的项目，与Apollo社区互动或了解开发者的新更新。
+当Apollo启动时，你看到的第一界面便是主页，它由一些标签页组成。在这个页面上，你可以启动你的Apollo工程，与Apollo社区互动或了解开发者的新更新。
 
-![File Tab](https://cdn.discordapp.com/attachments/349854261787754498/640965774105772034/unknown.png)
+在文件选项卡上，你可以看到“最近打开的项目”列表，以及两个按钮用于“创建一个新的项目（New Project）”或“从磁盘上打开一个现有的项目（Open Project）”。你可以用CTRL+N（PC）或CMD+N（Mac）和CTRL+O（PC）或CMD+O（Mac）快捷键快速使用这些按钮。
 
-在文件选项卡上，你会发现一个最近打开的项目列表，以及两个按钮用于启动一个新的项目或从磁盘上打开一个现有的项目。你可以分别用CTRL-N（PC）或CMD-N（Mac）和CTRL-O（PC）或CMD-O（Mac）快捷键快速访问这些按钮。在Windows上，你也可以直接将文件拖到这里来快速打开。
+在Windows上，你也可以直接将文件拖到窗口上来打开。
 
-![Learn Tab](https://cdn.discordapp.com/attachments/349854261787754498/640965848793612298/unknown.png)
+![&#x6587;&#x4EF6;](https://img.kaiheila.cn/assets/2021-06/K75TroGfM80hs08w.png)
 
-在 "学习 "标签上，你会发现有几个按钮可以链接到互动的地方：学习材料、问题报告和支持页面。
+在 "学习 "标签页上，你会发现有几个按钮可以进行链接的跳转：
 
-* 文档将带你到这个Wiki
-* 视频教程带你到YouTube播放列表，其中包括关于Apollo的视频指南。
-* 报告错误会在GitHub上启动一个错误报告问题。
-* 功能请求在GitHub上启动一个增强问题。
-* 问问题 在GitHub上启动一个问题。
-* Discord服务器将带你到我们的Discord邀请。
-* 官方网站会带你到Apollo Studio的官方网站。
-* 成为赞助人将带你到阿波罗工作室的Patreon页面。
+* 说明文档Documentation会跳转至Apollo的Github Wiki
+* 视频教程Video Tutorials会跳转至YouTube Apollo视频教学的播放列表
+* 报告问题Report a Bug会跳转至GitHub上并开启一个Bug提交的Issue。
+* 功能请求Feature Request会跳转至GitHub上并开启一个功能新增请求的Issue。
+* 问问题Ask a Question会跳转至GitHub上并开启一个提问的Issue。
+* Discord服务器会跳转至Apollo Studio的官方Discord群组。
+* 官方网站Official Website会跳转至Apollo Studio的官方网站。
+* 成为赞助人Become a Patron会跳转至Apollo Studio的Patreon页面。
 
-![News Tab](https://cdn.discordapp.com/attachments/653392306291998721/653392405047017473/unknown.png)
+![&#x5B66;&#x4E60;](https://img.kaiheila.cn/assets/2021-06/8bvOVJILPp0hs08w.png)
 
-在新闻标签上，你可以找到阿波罗工作室官方网站上最新的博客文章的链接，以及最新更新的补丁说明。
+在新闻标签上，你可以找到Apollo Studio官方网站上最新的博客文章的链接，以及新版本更新的修改说明。
 
-![Update](https://cdn.discordapp.com/attachments/653392306291998721/679297645679869952/unknown.png)
+![&#x65B0;&#x95FB;](https://img.kaiheila.cn/assets/2021-06/skHCE5qT6k0hs08w.png)
 
-如果有新版本的Apollo Studio，你会注意到一个自动更新的标语。请留意新版本的发布!
+如果有新版本的Apollo Studio，你会注意到一个自动更新的标语。请留意新版本!
 
-## 设置首选项
+![Update](https://img.kaiheila.cn/assets/2021-06/KzuvHSih360hs09q.png)
 
-Apollo的首选项窗口是你可以找到各种设置的地方，这些设置决定了Apollo的外观、行为和与外部世界的接口。这个窗口可以从左上角的齿轮图标进入。也可以通过CTRL-,\(PC\)或CMD-,\(Mac\)快捷键进入偏好设置。
+## 偏好设置
 
-![Preferences window](https://media.discordapp.net/attachments/636554452727496736/745998284828442756/unknown.png?width=345&height=480) ![Preferences window](https://media.discordapp.net/attachments/636554452727496736/745998329619677306/unknown.png?width=345&height=480)
+Apollo的偏好设置窗口是你可以找到各种设置的地方，这些设置决定了Apollo的外观、行为和与外接设备的设定。这个窗口可以从左上角的齿轮图标进入。也可以通过CTRL+,\(PC\)或CMD+,\(Mac\)快捷键进入偏好设置。
 
-Apollo的首选项分布在几个部分：
+![Preferences window](https://img.kaiheila.cn/assets/2021-06/81saLIQqMl0cs0hs.png) ![Preferences window](https://img.kaiheila.cn/assets/2021-06/bpf6BaqIE90cs0hs.png)
+
+Apollo偏好设置有几个部分：
 
 * 外观部分改变用户界面的布局或风格。
 * 主题部分改变颜色方案。请注意，需要重新启动才能使改变生效。
