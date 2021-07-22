@@ -1,4 +1,4 @@
-# Apollo工程的结构
+# Apollo Studio工程的结构
 
 {% hint style="info" %}
 本章介绍了Apollo Studio的基本概念
