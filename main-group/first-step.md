@@ -6,7 +6,7 @@
 
 为了确保你的灯尽可能顺利地运行，请确保你的Launchpad固件是最新的，当Apollo检测到固件版本低于推荐固件时，将会弹出窗口，你可以使用Novation Component或Launchpad Utility来更新
 
-![&#x56FA;&#x4EF6;&#x7248;&#x672C;&#x8B66;&#x544A;](https://img.kaiheila.cn/assets/2021-06/pAHyOCJm8S0e6058.png)
+![](../.gitbook/assets/driver-warning.png)
 
 如果你运行的是Windows系统，Apollo Studio需要安装Novation USB Driver 2.17.10或更新的版本才能运行（推荐使用USB Driver 2.22，不会蓝屏）。驱动是为了使你的Launchpad能够同时与多个进行MIDI交互的应用程序兼容（配合Ableton Live）。
 
