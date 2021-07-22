@@ -58,16 +58,16 @@
 Apollo偏好设置有几个部分：
 
 * 外观Appearance改变用户界面的布局或风格
-* 主题Theme改变颜色方案。（请注意，需要重新启动才能使改变生效）
-* 处理Processing限制了任何时候在Launchpad上绘制的每秒最大帧数（FPS）。这个参数很重要，因为过高的FPS会使Launchpad的灯光滞后，或者在生成灯光效果时CPU使用率过高
-* 屏幕上的Launchpad风格设置控制Launchpad在用户界面上的显示方式。
-* 启动板配置部分用来帮助Apollo识别MIDI端口作为启动板。可以为每个启动板选择一个旋转，以及输入格式。此外，还可以创建虚拟启动板。
-* 组的行为部分改变了主编辑器在向组添加链时的行为。
-* 模式编辑器部分改变了模式编辑器的行为，并允许清除你的颜色历史。
-* 模式MIDI导入调色板部分改变了模式编辑器的导入功能如何从一些预设的方法中解释MIDI文件中的音符的速度值，以及选择一个自定义的Retina调色板文件。
-* 文件管理部分是指Apollo在你工作时如何在后台处理你的文件，以及允许你清除最近的项目列表。
-* 撤销历史部分允许你取消对可以撤销的操作的限制。请注意，禁用这一限制将随着时间的推移大大增加内存的使用。
-* Discord Rich Presence部分控制Apollo如何与作为活动应用程序/游戏的Discord接口。
-* 应用程序管理部分用于管理自动更新，以及显示存储崩溃日志的文件夹。最好保持自动更新功能，以免错过关键修复和新功能。在下载更新之前，阿波罗将始终征求您的同意。
-* 使用统计部分显示关于使用情况和在Apollo中工作的时间的信息。
+* 主题Theme改变Apollo界面的颜色_**（请注意，需要重新启动才能使改变生效）**_
+* 处理Processing限制了任何时候在Launchpad上的每秒最大帧数（FPS）。这个参数很重要，因为过高的FPS会使Launchpad的灯光滞后，或者在生成灯光效果时CPU使用率过高
+* On-Screen Launchpad风格设置Launchpad在编辑灯光时的显示方式
+* Launchpad Configuration~~用来帮助Apollo识别MIDI端口作为启动板。~~可以为每个Launchpad设置旋转，以及按键输入模式。此外，也可以创建虚拟Launchpad
+* Group Behavior设置主编辑器在向组添加链时的行为
+* Pattern Editor设置Pattern编辑器的默认行为，并允许你清除你生成的颜色的历史几率
+* Pattern MIDI Import Palette可以设置Pattern编辑器导入灯光MIDI文件时为MIDI灯光套用的默认Palette（调色板）
+* File Management可以调整Apollo Studio在你工作时如何在后台处理你的文件，以及清除主页的“最近打开的项目”列表
+* Undo History可以禁用撤回上限**（**_**注意，禁用这一限制将随着时间的推移增加内存占用率）**_
+* Discord Rich Presence可以开启在Apollo Studio工作时，在Discord显示“应用程序/游戏”活动状态的接口
+* Application Management用于管理自动更新，以及打开存储崩溃日志的文件夹。最好开启自动更新，以免错过重要修复和新功能。在自动更新前，Apollo Studio会在您的同意后才开始下载更新
+* Usage Statistics显示当前工程使用情况和在开启Apollo的总时间
 
