@@ -66,7 +66,7 @@ Apollo偏好设置有几个部分：
 * Pattern Editor设置Pattern编辑器的默认行为，并允许你清除你生成的颜色的历史几率
 * Pattern MIDI Import Palette可以设置Pattern编辑器导入灯光MIDI文件时为MIDI灯光套用的默认Palette（调色板）
 * File Management可以调整Apollo Studio在你工作时如何在后台处理你的文件，以及清除主页的“最近打开的项目”列表
-* Undo History可以禁用撤回上限**（**_**注意，禁用这一限制将随着时间的推移增加内存占用率）**_
+* Undo History可以禁用撤销上限**（**_**注意，禁用这一限制将随着时间的推移增加内存占用率）**_
 * Discord Rich Presence可以开启在Apollo Studio工作时，在Discord显示“应用程序/游戏”活动状态的接口
 * Application Management用于管理自动更新，以及打开存储崩溃日志的文件夹。最好开启自动更新，以免错过重要修复和新功能。在自动更新前，Apollo Studio会在您的同意后才开始下载更新
 * Usage Statistics显示当前工程使用情况和在开启Apollo的总时间
