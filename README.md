@@ -12,5 +12,5 @@ Youtube：[播放列表跳转](https://www.youtube.com/playlist?list=PLKC4R3X00b
 
 翻译/维基主催：洛汐Raski
 
-\*使用电脑端访问本站可显示按钮跳转至Apollo的下载页面
+\*使用电脑端访问本站可显示按钮跳转至Apollo的下载页面/
 
